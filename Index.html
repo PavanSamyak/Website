@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oswald&family=Modak&family=Loura&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <defs>
+            <filter id="glow-effect" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+                <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+            <filter id="glow-hover-effect" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+                <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+        </defs>
+    </svg>
+    <div style="display: flex; width: 100vw; justify-content: center;">
+        <nav>
+            <ul>
+              <a href="index.html"><img src="Images\Logo.png" alt="" id="logoInNav"></a>
+            </ul>
+            <ul>
+              <a href="index.html" class="gradient-underline">Home</a>
+              <a href="about.html" class="gradient-underline">Work</a>
+              <a href="services.html" class="gradient-underline">Services</a>
+              <a href="contact.html" class="gradient-underline">Book Demo</a>
+            </ul>
+              <div class="button-container">
+                <a href="#" class="custom-button">Contact</a>
+            </div>
+        </nav>
+    </div>
+    <div style="position: absolute; left: 0; top: 0; z-index: 2;">
+        <img src="Images\Frame 117.png" alt="" style="width: 20rem;">
+    </div>
+    <div class="fixed-div">
+        <div style="display: flex; font-size: 1.5rem;" class="fixed-div-holder">
+            <img src="Images\Group 141.png" alt="" style="width: 40px; height: 40px; transform: scale(1.4); z-index: 1; margin-right: 20px; box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);">
+            <div style="display: block;">
+                <p style="margin: -10%; font-family: 'Oswald', sans-serif;">Bangalore,</p>
+                <p style="margin: -10%; font-family: 'Oswald', sans-serif;">India.</p>
+            </div>
+        </div>
+        <div>
+            <p style="font-family: helvetica; font-size: 1.6rem; opacity:0.8;">↘</p>
+            <p style="font-family: 'Oswald'; font-size: 1.4rem; margin-top: -10px; opacity:0.8;">Freelance</p>
+            <p style="font-family: 'Oswald'; font-size: 1.4rem; margin-top: -10px; margin-bottom: 4px; opacity:0.8;">Designer & Developer</p>
+            <p style="width: 200px; opacity: 0.4;">Impress your customers with stunning visuals and user-friendly interfaces.</p>
+        </div>
+    </div>
+    <div class="bottom-bar" style="z-index: 1001;">
+        <a href="#" class="icon email"><img src="Images\Email.png" alt="Email"></a>
+        <a href="#" class="icon call"><img src="Images\Phone.png" alt="Call"></a>
+        <a href="#" class="icon whatsapp"><img src="Images\Whatsapp.png" alt="WhatsApp"></a>
+    </div>
+    <section id="hero">
+        <div id="background-image"></div>
+        <div style="display: grid; margin: 0 6rem; margin-bottom: 6rem;">
+            <h1 id="heroH1" style="justify-self: left; font-size: 6rem; max-width: 120rem; color: rgba(255, 255, 255, 0.563); z-index: 4">Best <strong style="font-weight: bold;">Freelance Graphic designer, UI/UX designer &</strong>
+                <strong style="font-weight: bold;">Web-developer</strong> 
+                in India.
+            </h1>
+            <div style="display: flex; justify-self: center;">
+                <!-- <p style="margin-right: 2rem">
+                    ☑ App Design <br>
+                    ☑ Web Design <br>
+                    ☑ Social media post <br>
+                    ☑ Poster <br>
+                    ☑ PPT <br>    
+                </p>
+                <p>
+                    ☑ Pitch Deck <br>
+                    ☑ Thumbnail <br>
+                    ☑ Video Editing <br>
+                    ☑ Content Writing <br>
+                    ☑ Web Development <br>
+                </p> -->
+            </div>
+            
+        </div>
+        
+    </section> 
+    <section id="about" style="display: grid; height: 100vh; width: 100vw; background-color: rgb(0, 102, 255);">
+        <div style="align-content: center;" >
+            <div style="display: grid; border-radius: 40px; height: 80vh; width: 80vw; justify-self: center; align-self: center; background-color: rgba(128, 128, 128, 0.485);">
+                <div style="display: grid; border-radius: 40px; height: 74vh; width: 76vw; justify-self: center; align-self: center; background-color: black; color: white; justify-items: center,">
+                    <p style="justify-self: center; align-self: center; margin: 8rem;font-size: 2rem; color: rgb(142, 142, 142);">I am <strong>Pavan</strong> a <strong>Graphic designer & Web-developer</strong> who brings <strong>psychological value</strong> to your products.
+                        I convey your thoughts effectively to your consumers by <strong>highest-quality work</strong>, understanding trends & consumer needs.   
+                        I can help to be <strong>memorable & understandable</strong> to your consumers. <br>
+                        I have worked as freelance Since 4 years, and have done many projects and self works you can check them out below.
+                    </p>
+                </div>
+            </div>
+            <h1 style="margin-bottom: -8rem; position: relative; bottom: 6rem; font-size: 8rem; left: 4rem;">About</h1>
+            <img src="Images\Strengths.png" style="margin-bottom: -26rem; position: relative; bottom: 24rem; width: 14rem; right: -78rem;">
+        </div>
+    </section>
+    <section style="display: grid;">
+        <img style="justify-self: center; align-self: center; max-height: 8rem; margin: 2rem; margin-top: 4rem;" 
+        src="Images\Some of my work.svg" alt="">
+        <img style="justify-self: center; max-height: 28rem; margin-top: 2rem;"
+        src="Images\poster example.png" alt="">
+        <img style="justify-self: center; max-height: 28rem; margin-top: 2rem;"
+        src="Images\to do app example.png" alt="">
+        <div style="background: linear-gradient(to bottom, transparent, #002a5a77 50%, #0177ff71 100%); width: 100vw;">
+            <div style="display: grid; justify-self: center; align-self: center; margin-top: 2rem; margin-bottom: 4rem;" class="grid-container">
+                <img src="Images\miniExample1.png" alt="" class="grid-item">
+                <img src="Images\miniExample2.png" alt="" class="grid-item">
+                <img src="Images\miniExample3.png" alt="" class="grid-item">
+                <img src="Images\miniExample4.png" alt="" class="grid-item">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Thanks" style="display: block; justify-content: center; align-items: center;">
+        <div class="container">
+            <h1 style="font-family: Oswald; font-size: 4rem;"class="gradient-text" >Thank you for checking out my website</h1>
+            <div style="display: flex;">
+                <div class="contact-option">
+                    <a href="mailto:Pavansamyak@gmail.com" style="font-family: Bungee;" id="contactLinks">
+                        CLICK HERE TO, EMAIL ME :)
+                        <p class="barcode">
+                            PavanSamyak@gmail.com
+                        </p>
+                    </a>
+                </div>
+                <div class="contact-option">
+                    <a href="https://wa.me/917676360790" style="font-family: Bungee;" id="contactLinks">
+                        CLICK HERE TO, WHATSAPP ME :)
+                        <p class="barcode">
+                            https://wa.me/+917676360790
+                        </p>
+                    </a>
+                </div>
+                <div class="contact-option">
+                    <a href="tel:+91 7676360790" style="font-family: Bungee;" id="contactLinks">
+                        CLICK HERE TO, CALL ME :)
+                        <p class="barcode">
+                            tel:+91 7676360790
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" style="display: flex;">
+        SAY Hi!!!
+        <div class="contact-form" style="margin: 2rem; margin-top: 4rem; margin-left: 4rem;"> 
+            <input type="text" placeholder="NAME"> 
+            <input type="email" placeholder="E-MAIL"> 
+            <textarea placeholder="MESSAGE"></textarea> 
+            <button>SEND</button> 
+        </div>
+    </section>
+    
+</body>
+</html>
